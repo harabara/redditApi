@@ -1,0 +1,21 @@
+{
+  "name": "ellation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "ramda": "^0.25.0",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "test:dev": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
